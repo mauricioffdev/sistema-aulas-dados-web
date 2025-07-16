@@ -25,9 +25,8 @@ Usuário: sa
 
 Senha: (vazia)
 
-Detalhes
-
-Dados salvos localmente em ./data/
+Detalhes: Dados salvos localmente em ./data/
 
 Console H2 para ver os dados direto pelo navegador
 
+mauricioffdev
