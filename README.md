@@ -7,6 +7,7 @@ Como rodar
 No terminal, dentro da pasta do projeto, rode:
 
 ./mvnw spring-boot:run
+
 ou, se não usar wrapper:
 
 mvn spring-boot:run
@@ -29,4 +30,4 @@ Detalhes: Dados salvos localmente em ./data/
 
 Console H2 para ver os dados direto pelo navegador
 
-mauricioffdev
+Autor: mauricioffdev
