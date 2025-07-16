@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Novo Aluno</title>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <h1>Cadastro de Novo Aluno</h1>
+    <form th:action="@{/alunos}" method="post">
+        <label>Nome:</label>
+        <input type="text" name="nome" required><br><br>
+
+        <label>Email:</label>
+        <input type="email" name="email" required><br><br>
+
+        <label>Telefone:</label>
+        <input type="text" name="telefone" required><br><br>
+
+        <label>Plano:</label>
+        <input type="text" name="plano" required><br><br>
+
+        <button type="submit">Salvar</button>
+    </form>
+    <br>
+    <a href="/alunos">Voltar à lista</a>
+</body>
+</html>
